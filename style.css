@@ -1,0 +1,110 @@
+body {
+    margin: 0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+/* CABEÇALHO */
+header {
+    background: #000000;
+    text-align: center;
+    padding: -5rem -5rem;
+    color: rgb(255, 247, 247);
+}
+
+header .logo {
+    width: 33rem;
+    height: auto;
+}
+
+header h1 {
+    margin: -6rem 0 0.3rem;
+    font-size: 2.5rem;
+    color: #e60000;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* MENU */
+nav {
+    background: #1a1a1a;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #ddd;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #e60000;
+}
+
+nav .active {
+    color: #fff;
+    background: #e60000;
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+}
+
+/* ===== POSTS DA HOME ===== */
+main {
+    padding: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+}
+
+.post-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #ddd;
+    transition: 0.2s;
+}
+
+.post-card:hover {
+    transform: scale(1.03);
+    border-color: #e60000;
+}
+
+/* ===== POST COMPLETO ===== */
+article {
+    background: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+article h1 {
+    color: #e60000;
+    margin-top: 0;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #121212;
+    color: #bbb;
+    margin-top: 2rem;
+}
