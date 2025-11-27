@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>História dos Cassinos</title>
-    <link rel="stylesheet" href="../style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>História dos Cassinos</title>
+<link rel="stylesheet" href="../style.css">
 </head>
-<body>
 
-<header>
+<body data-post="historia">
+
+<header class="header">
     <img src="../Img/logo.png" class="logo">
+    <h1>História dos Cassinos</h1>
 </header>
 
-<article>
-<h1>História dos Cassinos</h1>
+<div class="post-container fade-in">
 
-<p>Os cassinos surgiram há séculos, evoluindo de casas de apostas rudimentares até complexos modernos como Las Vegas.</p>
+<p>Os cassinos possuem uma longa trajetória, começando na China antiga, onde jogos eram usados como entretenimento imperial. 
+Com o passar dos séculos, a prática chegou à Europa, onde a nobreza adotou jogos como cartas e roleta.</p>
 
-<h2>Pontos históricos</h2>
-<ul>
-    <li>A origem na Europa.</li>
-    <li>O surgimento de Las Vegas.</li>
-    <li>A chegada dos cassinos digitais.</li>
-</ul>
+<p>No século XIX, Mônaco se tornou o centro mundial dos cassinos, com o famoso Cassino de Monte Carlo. 
+Mais tarde, Las Vegas transformou o conceito, criando resorts gigantescos que misturavam luxo e apostas.</p>
 
-<a href="../index.html" class="btn-voltar">← Voltar ao Início</a>
+<p>Na década de 2000, surgiram os cassinos digitais, revolucionando o mercado e trazendo jogos como Bac Bo, Roleta, Slots e muito mais para o computador e celular.</p>
 
-</article>
+<p>Hoje, a indústria do entretenimento de apostas movimenta bilhões e atrai jogadores do mundo inteiro.</p>
 
-<footer>
-    <p>© 2025 • Blog Cassino</p>
-</footer>
+<h3>Comentários</h3>
 
+<div id="comments">
+    <ul id="comment-list"></ul>
+    <input type="text" id="comment-input" placeholder="Escreva um comentário...">
+    <button onclick="saveComment()">Comentar</button>
+</div>
+
+<a href="../index.html" class="voltar">Voltar ao Menu</a>
+
+</div>
+
+<script src="../script.js"></script>
 </body>
 </html>
