@@ -3,50 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos de Cassino</title>
+    <title>Jogos Populares • Blog Cassino</title>
     <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-<header class="header">
-    <img src="../img/logo.png" alt="">
-    <h1>Jogos Populares</h1>
-</header>
+    <header class="header">
+        <img src="../Img/logo.png" class="logo">
+        <h1>Jogos Populares</h1>
+    </header>
 
-<section class="categoria-bloco post-area">
+    <main class="post-container fade-in">
 
-    <h2>🎰 Slots (Caça-níqueis)</h2>
-    <p>
-        Conhecidos por suas luzes e sons chamativos, os slots são os jogos mais jogados do mundo.
-        Eles funcionam por RNG (gerador de números aleatórios) e oferecem jackpots milionários.
-    </p>
+        <h2 class="post-title">🎮 Jogos Populares de Cassino</h2>
 
-    <h2>🎲 Roleta</h2>
-    <p>
-        Criada na França, a roleta se tornou um clássico. Jogadores podem apostar em números,
-        cores ou combinações, tornando o jogo simples e estratégico.
-    </p>
+        <p class="post-intro">
+            Os cassinos oferecem uma grande variedade de jogos, cada um com estilos, estratégias e emoções diferentes.
+            Aqui você encontrará uma explicação completa dos jogos mais famosos, sua história, como funcionam
+            e porque fazem sucesso no mundo inteiro.
+        </p>
 
-    <h2>🃏 Blackjack</h2>
-    <p>
-        O objetivo é fazer 21 pontos ou ficar mais perto disso que o dealer.
-        É um dos jogos onde a habilidade pode superar o azar.
-    </p>
+        <!-- -------------------- SLOTS -------------------- -->
+        <section class="post-section slide-up">
+            <h3>🎰 Slots (Caça-níqueis)</h3>
+            <p>
+                Os caça-níqueis são os jogos mais populares dos cassinos modernos. 
+                Eles atraem jogadores por seus efeitos sonoros, luzes brilhantes,
+                animações e chances de ganhar jackpots enormes.  
+                Os slots funcionam através de RNG (Gerador de Números Aleatórios), garantindo resultados justos.
+            </p>
+            <p>
+                Hoje existem milhares de temas diferentes: aventura, mitologia, filmes,
+                animais, fantasia e muito mais. Muitos oferecem rodadas bônus, giros grátis e recursos especiais.
+            </p>
+        </section>
 
-    <h2>🎯 Bac Bo, Sic Bo e jogos modernos</h2>
-    <p>
-        Os jogos orientais têm ganhado popularidade, principalmente o Bac Bo,
-        que mistura simplicidade com apostas rápidas.
-    </p>
+        <!-- -------------------- ROLETA -------------------- -->
+        <section class="post-section slide-up">
+            <h3>🎲 Roleta</h3>
+            <p>
+                A roleta é um dos jogos de cassino mais tradicionais do mundo. 
+                Criada na França, ela rapidamente se espalhou e se tornou um clássico.  
+                O jogador aposta em números, cores ou combinações, enquanto a bola gira 
+                no disco até parar no número vencedor.
+            </p>
+            <p>
+                Existem três versões principais: Roleta Europeia, Americana e Francesa,
+                cada uma com probabilidades e regras diferentes.
+            </p>
+        </section>
 
-    <a class="voltar" href="../index.html">⬅ Voltar ao início</a>
+        <!-- -------------------- BLACKJACK -------------------- -->
+        <section class="post-section slide-up">
+            <h3>🃏 Blackjack</h3>
+            <p>
+                Considerado um dos jogos mais estratégicos de cassino, o Blackjack exige
+                raciocínio e planejamento. O objetivo é chegar o mais próximo possível de 21 pontos,
+                sem ultrapassar esse valor, tentando vencer o dealer.
+            </p>
+            <p>
+                Muitos jogadores estudam técnicas avançadas, como contagem de cartas,
+                probabilidades matemáticas e estratégias básicas, tornando o jogo ainda mais emocionante.
+            </p>
+        </section>
 
-</section>
+        <!-- -------------------- BAC BO E JOGOS ORIENTAIS -------------------- -->
+        <section class="post-section slide-up">
+            <h3>🀄 Bac Bo, Sic Bo e Jogos Orientais</h3>
+            <p>
+                Esses jogos têm ganhado enorme popularidade nos últimos anos.
+                O Bac Bo, por exemplo, combina simplicidade com apostas rápidas,
+                enquanto o Sic Bo utiliza três dados para formar combinações.
+            </p>
+            <p>
+                Eles são muito apreciados por quem busca partidas rápidas,
+                regras simples e uma experiência diferente dos jogos tradicionais ocidentais.
+            </p>
+        </section>
 
-<footer>
-    © 2025 • Blog Cassino • Desenvolvido por Fernando Soares
-</footer>
-
-</body>
-</html>
+        <!-- ---------------- BOTÃO VOLTAR ---------------- -->
+        <div id="comments">
+            <ul id="comment-list"></ul>
+            <input type="text" id="comment-input" placeholder="Escreva um comentário...">
+            <button onclick="saveComment()">Comentar</button>
+        </div>
+        
+        <a href="../index.html" class="voltar">Voltar ao Menu</a>
+        
+        </div>
+        
+        <script src="../script.js"></script>
+        </body>
+        </html>
