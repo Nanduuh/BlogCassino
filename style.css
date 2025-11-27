@@ -108,3 +108,20 @@ footer {
     color: #bbb;
     margin-top: 2rem;
 }
+
+.btn-voltar {
+    display: inline-block;
+    background: #e60000;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    transition: 0.2s;
+}
+
+.btn-voltar:hover {
+    background: #b10000;
+    transform: scale(1.03);
+}
