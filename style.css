@@ -149,6 +149,39 @@ footer {
     }
 }
 
+.contato {
+    margin: 40px auto;
+    max-width: 900px;
+    background: #111;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 12px rgba(255,215,0,0.3);
+    animation: fadeInUp 0.8s;
+}
+
+.contato h2 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.contato a {
+    color: #ffdd55;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+/* Animação suave */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 /* RESPONSIVO */
 @media (max-width: 600px) {
     h1 {
