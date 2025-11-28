@@ -181,16 +181,36 @@ footer {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
 }
-
-/* RESPONSIVO */
 @media (max-width: 600px) {
-    h1 {
-        font-size: 3rem;
+
+    .header {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
     }
+
     .logo {
-        height: 7rem;
+        height: 26rem !important;   /* Logo continua grande */
+        margin-bottom: -10rem !important; /* Evita o título colar nela */
     }
+
+    h1 {
+        font-size: 3.2rem;
+        margin-top: 8rem;  /* Afastamento do título para não encostar na logo */
+        z-index: 10;
+        position: relative;
+    }
+
+    .subtitulo {
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+
     .card-link {
         font-size: 1.8rem;
+        padding: 2.4rem;
+    }
+
+    .card-link p {
+        font-size: 1.6rem;
     }
 }
